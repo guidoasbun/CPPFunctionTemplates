@@ -7,6 +7,18 @@ using namespace std;
 
 int main()
 {
+    cout << "Testing maximum: \n";
+    cout << maximum(23.2, 11.5) << endl;
+
+    cout << "Testing search: \n";
+    char a[] = {'M', 'D', 'M', 'A', 'X'};
+    cout << search(a, 5, 'M') << endl;
+
+    cout << "Testing addUp: \n";
+    Pair<int> pIntTest(11, 23);
+    cout << addUp(pIntTest) << endl;
+
+    cout << "\n\n---------------------------------------------\n\n";
     cout << "PAIRS OF INTEGERS" << endl;
 
     Pair<int> pInt1(1, 2), pInt2(4, 7);

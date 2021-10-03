@@ -8,6 +8,15 @@
 #include <iostream>
 
 template<typename T>
+T maximum(const T& first, const T& second);
+
+
+template<typename T>
+bool search(const T a[], int numOfElements, const T& toSearch);
+
+
+
+template<typename T>
 class Pair
 {
     // NOTE: The friend function declaration needs to be set as a template

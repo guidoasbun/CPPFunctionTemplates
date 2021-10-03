@@ -6,6 +6,37 @@
 
 using namespace std;
 
+
+
+template<typename T>
+T maximum(const T& first, const T& second)
+{
+    if(first < second)
+        return second;
+    else
+        return first;
+}
+
+template<typename T>
+bool search(const T a[], int numOfElements, const T& toSearch)
+{
+    int idx{0};
+    while (idx < numOfElements)
+    {
+        if(toSearch == a[idx])
+            return true;
+        else
+            ++idx;
+    }
+    return false;
+}
+
+template<typename T>
+T addUp(const Pair<T>& thePair)
+{
+    return (thePair.getFirst() + thePair.getSecond());
+}
+
 template<typename T>
 ostream& operator<<(ostream& out, const Pair<T>& p)
 {
