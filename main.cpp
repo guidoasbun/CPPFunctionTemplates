@@ -7,6 +7,11 @@ using namespace std;
 
 int main()
 {
+    cout << "Testing Maximum: \n";
+    cout << maximum(23.2, 11.5) << endl;
+
+
+    cout << "\n\n---------------------------------------------\n\n";
     cout << "PAIRS OF INTEGERS" << endl;
 
     Pair<int> pInt1(1, 2), pInt2(4, 7);
