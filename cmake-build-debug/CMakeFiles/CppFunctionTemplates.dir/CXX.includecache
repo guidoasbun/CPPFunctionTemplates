@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/rodrigoasbun/CLionProjects/CppFunctionTemplates/Pair.cpp
+Pair.h
+/Users/rodrigoasbun/CLionProjects/CppFunctionTemplates/Pair.h
+
+/Users/rodrigoasbun/CLionProjects/CppFunctionTemplates/Pair.h
+iostream
+-
+
+/Users/rodrigoasbun/CLionProjects/CppFunctionTemplates/main.cpp
+Pair.h
+/Users/rodrigoasbun/CLionProjects/CppFunctionTemplates/Pair.h
+Pair.cpp
+/Users/rodrigoasbun/CLionProjects/CppFunctionTemplates/Pair.cpp
+iostream
+-
+string
+-
+
